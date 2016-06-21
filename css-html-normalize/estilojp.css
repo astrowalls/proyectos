@@ -1,0 +1,123 @@
+html{
+	font-size: 16px;/*tamaño de fuente de 16px*/
+	height: 100%;/*tomara el 100% en la altura*/
+}
+
+body{
+	background: url("http://obrazky.4ever.sk/data/download/abstraktne/cierne-pozadie-200633.jpg");/*se pone la imagen como fondo*/
+	background-repeat: no-repeat; /*no se repita*/
+	background-size: cover;/*la imagen sea de toda la pantalla*/
+	background-position: center;/*sea centrada*/
+	background-attachment: fixed;/*no se mueva a la hora de scrollear*/
+	font: normal 62.5% Helvetica, Tahoma, Arial, Sans-serif;/*para ponerle un tipo de letra fijo al documento en especial a todo la página*/
+}
+
+body .container{
+	max-width: 1024px;/*vamos a trabajar dentro de 1024px para que no se salga (responsive)*/
+	width: 100%;/*siempre coja el 100% de ése tamaño*/
+	margin: 0 auto; /*tenga un margen de 0 pero, el auto es para que el navegador los ponga automaticamente*/
+}
+
+body .nav-bar{
+	/*font-color: white;es lo mismo que el background-color*/
+	color: white;/*color de la letra*/
+	border: 1px solid black;/*borde del nav-bar (tamaño, va a ser completo y negro)*/
+	background-color: #3d8b40;
+	margin-bottom: 30vh;
+}
+
+.nav-bar h1{
+	background-color: #2f4f4f;/*color de fondo del h1*/
+	font-size: 3em;/*48px ya que el tamaño predeterminado de la letra es 16px*/
+	display: inline-block;/*ajusta al tamaño que se está usando en el h1 (solo hasta makergram)*/
+	padding: 1em; /*el tamaño del padding (puede ponerse las 4 posiciones en orden de las manecillas del reloj 
+	"top","right","bottom","left")*/
+	border-radius:10%;/*es para darle un redondeado a las esquinas, trabaja en porcentaje*/
+	margin-left:15px ;/*es para darle un margen externo*/
+	opacity: 0.7;
+	margin-right: 200px;
+}
+
+.nav-bar a{
+	color:white;/*color de la letra*/
+	font-size: 1.5em;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+body section{
+	display: inline-block;/*ajusta al tamaño que se está usando en el h1 (solo hasta la descripción)*/
+	width: 40%;/*tamaño*/
+	margin-left: 20px;/*margen de la izquierda, para que no quede pegado*/
+	vertical-align: top;/*es para que se alieen al top*/
+	margin-left: 15px;
+}
+
+body .signup_form{
+	display: inline-block;/*ajusta al tamaño que se está usando en el h1 (solo hasta el formulario)*/
+	width: 50%;/*tamaño(el tamaño sumado al del section debe ser menor a 100 (suma = 90%))*/
+	margin-left: 2vw;/*un margen a la izquierda*/
+	vertical-align: top;
+	font-size: 1.6em;
+	background-color: rgba(255,255,255,0.7);/*es para red,green, blue, y alpha(opacity)*/
+	border-radius: 2%;
+	padding-left: 20px;
+}
+
+form .rmbrm{
+	font-size: 0.9em;
+}
+
+form input[type='text'], input[type='password']{
+	display:block;/*para que pasen abajo los otros input*/
+	width: 400px;/*tamaño de los inputs*/
+	margin-bottom: 5px;
+}
+
+form input[type='submit']{
+	display:inline-block;/*para que pasen abajo los otros input*/
+	width: 200px;
+}
+
+.signup_form .signup_txt{
+	font-weight:700;/*negreti (700) normal(400)*/
+	font-size: 1.7em;
+	box-shadow: 0px 1px #BDBDBD;/*para la sombra (valor1:vertical, valor3:horizontal, color)*/
+	width:430px;
+}
+
+.signup_form a{
+	font-weight:700;
+	text-decoration: none;/*no salga la decoración (el subrayado)*/
+	color: #3d8b40;
+}
+
+div section p{
+	color: white;
+	font-size: 2em;
+	text-shadow:2px 1px #000000;/*para agregar la sombra al texto*/
+}
+
+
+p span{
+	font-weight: 700;/*es para reteñir*/
+}
+
+div div p{
+	color: black;
+	text-shadow:0 0 #000000;
+}
+
+footer{
+	position: relative;/*se posiciona relativo para dejar la posición fija el <p> el footer que es el padre debe ser relativa 
+	(para que se mueva dentro de él) */
+	min-height: 125px;/*altura minima entre el footer y el otro secmento(nunca será menor a 125px)*/
+}
+
+footer p{
+	position: absolute;/*siempre que se necesita una posición absoluta el padre debe ser relativo (absolute: que la posición sea fija)*/
+	bottom:50px;
+	font-size: 2em;
+	margin-left:7px;
+	color:white;
+}

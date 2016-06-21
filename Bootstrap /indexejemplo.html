@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title></title>
+
+	<link href="css/bootstrap.css" rel="stylesheet"> <!-- pulls in the main bootstrap content we need -->
+	<link href="css/style.css" rel="stylesheet"> 
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+  </head>
+
+  <body>
+  	<div class="container">
+
+  		<nav class="navbar navbar-default">
+  			<div class="container-fluid"> 
+
+  				<div class="navbar-header">
+  					<button type="button" 
+  					class="navbar-toggle collapsed"
+  					data-toggle="collapse"
+  					data-target="#main_navbar"
+  					aria-expanded="false"> Open		
+  					</button>
+  				</div>
+  				<div class="collapse navbar-collapse" id="main_navbar">
+	  				<ul class="nav navbar-nav"> <!--ul es lista no ordenada-->
+
+	  					<li> <a href="index.html">Home</a></li> <!-- li es cada viñeta-->
+	  					<li> <a href="album.htm">Albums</a></li> 
+	  					<li> <a href="photos.html">Photos</a></li> 
+	  				</ul>
+  				</div>	
+  			</div>	
+  		</nav>
+  	
+  		 <ol class="breadcrumb">
+	  		 <li><a href="index.html">Home</a></li>
+	  		 <li><a href="album.html">Albums</a></li>
+	  		 <li><a href="photos.html">Photos</a></li>
+	  	 </ol>
+  		
+
+	  	<!-- container las imágenes son del mismo tamaño, las cambia una sobre  la otra, con fluid se van reduciendo a escala es mejor fluid-->
+	  	<div class="row">
+	  		<div class="col-md-12 borde"> <!-- columnas de tamaño mediano que ocupen toda la pantalla-->
+	  			<h1>SOLO UNO OCUPA LOS 12 </h1>
+	  		</div>
+	  	</div>
+
+	  	<div class="row"> <!--row es fila-->
+	  		<div class="col-md-4 col-xs-6 borde"> <!-- columnas de tamaño mediano que ocupen toda la pantalla-->
+	  			<h1>ENTRES OCUPA UN TERCIO </h1>
+	  		</div>
+	  		<div class="col-md-4 col-xs-6 borde"> <!-- columnas de tamaño mediano que ocupen toda la pantalla-->
+	  			<h1>ENTRES OCUPA UN TERCIO</h1>
+	  		</div>
+	  		<div class="col-md-4 col-xs-6 borde"> <!-- columnas de tamaño mediano que ocupen toda la pantalla-->
+	  			<h1>ENTRES OCUPA UN TERCIO </h1>
+	  		</div>
+	  	</div>
+
+	  	<div class="row"> <!--row es fila-->
+	  		<div class="col-md-3 col-xs-6 borde"> <!-- columnas de tamaño mediano que ocupen toda la pantalla-->
+	  			<h1>EN CUATRO OCUPA UN CUARTO</h1>
+	  		</div>
+	  		<div class="col-md-3 col-xs-6 borde"> <!-- columnas de tamaño mediano que ocupen toda la pantalla-->
+	  			<h1>EN CUATRO OCUPA UN CUARTO </h1>
+	  		</div>
+	  		<div class="col-md-3 col-xs-6 borde"> <!-- columnas de tamaño mediano que ocupen toda la pantalla-->
+	  			<h1>EN CUATRO OCUPA UN CUARTO </h1>
+	  		</div>
+	  		<div class="col-md-3 col-xs-6 borde"> <!-- columnas de tamaño mediano que ocupen toda la pantalla-->
+	  			<h1>EN CUATRO OCUPA UN CUARTO </h1>
+	  		</div>
+	  	</div>
+
+	  	<div class="row"> <!--row es fila-->
+	  		<div class="col-md-4 col-xs-6"> <!-- columnas de tamaño mediano que ocupen toda la pantalla-->
+	  			<h1></h1>
+	  		</div>
+	  		<div class="col-md-4 col-xs-6 borde"> <!-- columnas de tamaño mediano que ocupen toda la pantalla-->
+	  			<h1>EN TRES OCUPA UN TERCIO CENTRADO</h1>
+	  		</div>
+	  		<div class="col-md-4 col-xs-6"> <!-- columnas de tamaño mediano que ocupen toda la pantalla-->
+	  			<h1> </h1>
+	  		</div>
+	  	</div>
+  </div>
+
+  <script src="js/jquery.min.js"></script> <!-- jquery libraries -->
+  <script src="js/bootstrap.min.js"></script> <!-- bootsrap libraries -->
+
+</body>
+</html>

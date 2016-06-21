@@ -1,0 +1,118 @@
+html{
+	font-size: 16px;
+	height: 100%;
+
+}
+
+body{
+	background: url("http://2.bp.blogspot.com/_Xdigfi6uFIA/TM1bzZyemrI/AAAAAAAAAjE/KXKOmgrZ10A/s1600/DSC_0230.JPG"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	background-attachment: fixed;
+	font: normal 62.5% Helvetica, Tahoma, Arial, Sans-serif; 
+}
+
+ .container {
+	max-width: 1024px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+ .nav-bar {
+	color: white;
+	background-color: #088B8B;
+	border: 1px
+	border-style: solid;
+	border-color: white;
+}
+
+.nav-bar a {
+	font-size: 18px;
+	margin-left: 30px;
+}
+
+form input[type='text'], input[type='password'], input[type='submit']{
+	display: block;
+	width: 315px;
+	padding-top: 5px;
+}
+
+
+.nav-bar h1 {
+	background-color: #2F4F4F;
+	font-size: 2.5em;
+	padding: 10px 5px 10px 5px;
+	border-radius: 30%;
+	margin-left: 15px;
+	display: inline-block;
+	
+}
+
+.nav-bar a {
+	color:#81DAF5;
+	}
+
+body section {
+	display: inline-block;
+	width: 42%;
+	padding-right: 40px;
+	vertical-align:top; 
+	margin-top: 133px;
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 15px;
+}
+
+section p {
+	color: #0B3B2E;
+	text-shadow: 2px 1px #ffffff;
+}
+
+p span {
+	font-weight: bold;
+}
+
+ .signup_form {
+	display: inline-block;
+	width: 35%;
+	color: #04B486;
+	text-align: left;
+	background-color: rgba(255,255,255,0.4);
+	padding-left: 34px;
+	margin-top: 147px;
+	font-size: 12px;
+	border-radius: 2%;
+	margin-left: 15px;
+	width: 355px;
+}
+
+form .rmbrm{
+	font-size: 0.8em;
+}
+
+.signup_form .signup_text {
+	font-weight: bold;
+	font-size: 1.7em;
+	box-shadow:  0px 1px #BDBDBD;
+	width: 315px;
+}
+
+.signup_form a {
+	font-weight: bold;
+	text-decoration:none;
+	color:#61210B;
+}
+
+
+footer {
+	position: relative;
+	min-height: 125px;
+}
+
+footer p {
+	position: absolute;
+	bottom: 0;
+	margin-left: 7px;
+	color:white;
+}
